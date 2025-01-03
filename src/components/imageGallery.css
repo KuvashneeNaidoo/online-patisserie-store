@@ -1,0 +1,45 @@
+#image-gallery {
+  position: relative;
+  overflow: hidden;
+  margin-top: 85px;
+}
+
+#image-gallery .row {
+  height: 100%;
+}
+
+#image-gallery .col-3 {
+  padding: 0;
+  flex-shrink: 0;
+  width: 25%; /* You can adjust the width to make the images smaller */
+}
+
+#image-gallery img {
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-scroll {
+  display: flex;
+  animation: scroll-images 20s linear infinite;
+}
+
+.gallery-scroll img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll-images {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Stop animation on hover */
+.gallery-scroll:hover {
+  animation-play-state: paused;
+}

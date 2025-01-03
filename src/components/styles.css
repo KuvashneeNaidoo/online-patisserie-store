@@ -1,0 +1,220 @@
+/* Global Styles */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  padding: 1rem;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links ul li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.navbar-links a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Main Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/choc-sponge-cake.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Two-Column Section (Text + Image) */
+.two-column-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.two-column-section .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.two-column-section .col-md-6 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Make sure the image in the second column doesn't push text off-center */
+.two-column-section .col-md-6 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+
+.text-overlay h2,
+.text-overlay p,
+.text-overlay button {
+  margin: 5px 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .two-column-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .two-column-section .col-md-6 {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .two-column-section .col-md-6 img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+#testimonials .container {
+  max-width: 100%;
+}
+
+#testimonials p {
+  text-align: center;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+/* Testimonial images - Make them smaller and rounded */
+#testimonials img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  min-height: auto;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+}
+
+.footer .row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .col-md-4 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer .social-icons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
