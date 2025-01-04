@@ -25,6 +25,7 @@ function GraphicPhotography() {
               src={volcanoCake}
               alt="Volcano Cake"
               className="img-fluid rounded"
+              loading="lazy"
             />
             <div className="text-overlay">
               <h2>Decadent Designs</h2>
@@ -47,6 +48,7 @@ function GraphicPhotography() {
               src={coffee}
               alt="Coffee and Dessert"
               className="img-fluid rounded"
+              loading="lazy"
             />
             <div className="text-overlay">
               <h2>Perfect Pairings</h2>
