@@ -26,6 +26,7 @@ function ImageGallery() {
                   src={src}
                   alt={`Cake ${index}`}
                   className="img-fluid rounded"
+                  loading="lazy"
                 />
               </div>
             ))}
