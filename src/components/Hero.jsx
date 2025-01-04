@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import chocolateCake from "../images/chocolate-cake.jpg";
+import chocolateCake from "../images/choc-sponge-cake.jpg";
 
 function Hero() {
   return (
