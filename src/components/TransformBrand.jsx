@@ -34,6 +34,7 @@ function TransformBrand() {
               src={cheeseCake}
               alt="Delicious Cheesecake"
               className="img-fluid rounded"
+              loading="lazy"
             />
           </div>
         </div>
@@ -49,6 +50,7 @@ function TransformBrand() {
               src={chocolateCake}
               alt="Irresistible Chocolate Cake"
               className="img-fluid rounded"
+              loading="lazy"
             />
           </div>
           <div className="col-md-6" style={{ paddingLeft: 0 }}>
