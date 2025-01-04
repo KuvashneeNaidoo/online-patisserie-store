@@ -11,7 +11,12 @@ function Testimonials() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <img src={imageEmily} alt="Emily" className="img-fluid rounded" />
+            <img
+              src={imageEmily}
+              alt="Emily"
+              className="img-fluid rounded"
+              loading="lazy"
+            />
             <p>
               "Sugar Lane’s desserts are simply the best! Every bite is a burst
               of flavor. My guests were raving about the treats at my party." -
@@ -19,7 +24,12 @@ function Testimonials() {
             </p>
           </div>
           <div className="col-md-4">
-            <img src={imageJennie} alt="Jennie" className="img-fluid rounded" />
+            <img
+              src={imageJennie}
+              alt="Jennie"
+              className="img-fluid rounded"
+              loading="lazy"
+            />
             <p>
               "I couldn’t be happier with Sugar Lane. The attention to detail
               and the taste of their desserts are unmatched. Truly a delightful
@@ -27,7 +37,12 @@ function Testimonials() {
             </p>
           </div>
           <div className="col-md-4">
-            <img src={imageThomas} alt="Thomas" className="img-fluid rounded" />
+            <img
+              src={imageThomas}
+              alt="Thomas"
+              className="img-fluid rounded"
+              loading="lazy"
+            />
             <p>
               "Sugar Lane exceeded my expectations! Their desserts were the
               highlight of our event, and the presentation was stunning." -
