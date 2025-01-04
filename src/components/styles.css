@@ -55,7 +55,6 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url("../images/choc-sponge-cake.jpg");
   background-size: cover;
   background-position: center;
   color: white;
