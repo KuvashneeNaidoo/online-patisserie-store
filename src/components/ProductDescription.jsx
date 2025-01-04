@@ -37,6 +37,7 @@ function ProductDescription({ cart, setCart }) {
               src={product.image}
               alt={product.name}
               style={{ height: "auto", width: "100%" }}
+              loading="lazy"
             />
           </Col>
 
