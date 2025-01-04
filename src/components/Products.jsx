@@ -27,7 +27,12 @@ function Products() {
             to={`/product-description/easter-cake`}
             className="product-card"
           >
-            <img src={easterCake} alt="Easter Cake" className="product-image" />
+            <img
+              src={easterCake}
+              alt="Easter Cake"
+              className="product-image"
+              loading="lazy"
+            />
             <h3 className="product-title">Easter Cake</h3>
             <p className="product-description">
               Delicious chocolate cake made with the finest ingredients.
@@ -43,6 +48,7 @@ function Products() {
               src={cinnamonRolls}
               alt="Cinnamon Rolls"
               className="product-image"
+              loading="lazy"
             />
             <h3 className="product-title">Cinnamon Rolls</h3>
             <p className="product-description">
@@ -56,6 +62,7 @@ function Products() {
               src={redVelvet}
               alt="Red Velvet Cake"
               className="product-image"
+              loading="lazy"
             />
             <h3 className="product-title">Red Velvet Cake</h3>
             <p className="product-description">
@@ -72,6 +79,7 @@ function Products() {
               src={blackBerrySponge}
               alt="Blackberry Sponge"
               className="product-image"
+              loading="lazy"
             />
             <h3 className="product-title">Blackberry Sponge</h3>
             <p className="product-description">
@@ -81,7 +89,12 @@ function Products() {
 
           {/* Product 5 */}
           <Link to="/product-description/lemon-loaf" className="product-card">
-            <img src={lemonLoaf} alt="Lemon Loaf" className="product-image" />
+            <img
+              src={lemonLoaf}
+              alt="Lemon Loaf"
+              className="product-image"
+              loading="lazy"
+            />
             <h3 className="product-title">Lemon Loaf</h3>
             <p className="product-description">
               A zesty lemon loaf with a tangy glaze on top.
@@ -97,6 +110,7 @@ function Products() {
               src={marshmallowTreat}
               alt="Marshmallow Treat"
               className="product-image"
+              loading="lazy"
             />
             <h3 className="product-title">Marshmallow Treat</h3>
             <p className="product-description">
@@ -106,7 +120,12 @@ function Products() {
 
           {/* Product 7 */}
           <Link to="/product-description/cherry-pie" className="product-card">
-            <img src={cherryPie} alt="Cherry Pie" className="product-image" />
+            <img
+              src={cherryPie}
+              alt="Cherry Pie"
+              className="product-image"
+              loading="lazy"
+            />
             <h3 className="product-title">Cherry Pie</h3>
             <p className="product-description">
               A classic cherry pie with a golden, buttery crust.
@@ -115,7 +134,12 @@ function Products() {
 
           {/* Product 8 */}
           <Link to="/product-description/bundt-cake" className="product-card">
-            <img src={bundtCake} alt="Bundt Cake" className="product-image" />
+            <img
+              src={bundtCake}
+              alt="Bundt Cake"
+              className="product-image"
+              loading="lazy"
+            />
             <h3 className="product-title">Bundt Cake</h3>
             <p className="product-description">
               A moist bundt cake topped with a delicious glaze.
@@ -124,7 +148,12 @@ function Products() {
 
           {/* Product 9 */}
           <Link to="/product-description/cheesecake" className="product-card">
-            <img src={cheeseCake} alt="Cheesecake" className="product-image" />
+            <img
+              src={cheeseCake}
+              alt="Cheesecake"
+              className="product-image"
+              loading="lazy"
+            />
             <h3 className="product-title">Cheesecake</h3>
             <p className="product-description">
               A rich and creamy cheesecake with a buttery crust.
@@ -140,6 +169,7 @@ function Products() {
               src={chocolateBrownies}
               alt="Chocolate Brownies"
               className="product-image"
+              loading="lazy"
             />
             <h3 className="product-title">Chocolate Brownies</h3>
             <p className="product-description">
@@ -149,7 +179,12 @@ function Products() {
 
           {/* Product 11 */}
           <Link to="/product-description/macarons" className="product-card">
-            <img src={macarons} alt="Macarons" className="product-image" />
+            <img
+              src={macarons}
+              alt="Macarons"
+              className="product-image"
+              loading="lazy"
+            />
             <h3 className="product-title">Macarons</h3>
             <p className="product-description">
               Delicate almond meringue cookies filled with flavorful
@@ -166,6 +201,7 @@ function Products() {
               src={fonfettiCake}
               alt="Fonfetti Cake"
               className="product-image"
+              loading="lazy"
             />
             <h3 className="product-title">Fonfetti Cake</h3>
             <p className="product-description">
