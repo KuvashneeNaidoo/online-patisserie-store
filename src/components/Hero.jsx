@@ -11,9 +11,6 @@ function Hero() {
         loading="lazy"
         className="hero-image"
       />
-      <div className="hero-content text-center text-white">
-        <h1>Our Desserts</h1>
-      </div>
     </section>
   );
 }
