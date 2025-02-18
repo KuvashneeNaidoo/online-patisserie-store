@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           {/* Newsletter Subscription */}
-          <div className="col-md-4">
+          <div className="col-md-4 text-center">
             <h5>Join Our Newsletter</h5>
             <p>
               Sign up for our newsletter to stay updated on the latest
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           {/* Social Media Links */}
-          <div className="col-md-4">
+          <div className="col-md-4 text-center">
             <h5>Follow Us</h5>
             <div className="social-icons">
               <a href="https://facebook.com" className="text-white mr-3">
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="col-md-4">
+          <div className="col-md-4 text-center">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li>
@@ -56,7 +56,6 @@ const Footer = () => {
                   Find a Pâtisserie
                 </a>
               </li>
-
               <li>
                 <a href="#" className="text-white">
                   T&Cs

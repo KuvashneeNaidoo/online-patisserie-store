@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles.css";
-import chocolateCake from "../images/chocolate-cake.jpg";
+import chocolateBrownie from "../images/chocolate-brownies.jpg";
 import cheeseCake from "../images/cheesecake.jpg";
 
 function TransformBrand() {
@@ -9,27 +9,23 @@ function TransformBrand() {
 
   return (
     <>
-      <section
-        id="transform-your-desserts"
-        className="two-column-section container-fluid"
-      >
+      <section id="transform-your-desserts" className="two-column-section">
         <div className="row align-items-center">
-          <div className="col-md-6" style={{ paddingRight: 0 }}>
+          <div className="col-md-6 col-sm-12 text-content">
             <h2>Transform Your Dessert Experience</h2>
-            <p style={{ padding: "0 100px" }}>
+            <p>
               Indulge in a world of sweetness with our delightful creations.
               From classic favorites to innovative treats, our desserts are
               crafted to satisfy your cravings and leave you wanting more.
             </p>
             <button
               className="btn btn-dark"
-              style={{ margin: "0 300px" }}
               onClick={() => navigate("/products")}
             >
               Explore Desserts
             </button>
           </div>
-          <div className="col-md-6" style={{ paddingRight: 0 }}>
+          <div className="col-md-6 col-sm-12">
             <img
               src={cheeseCake}
               alt="Delicious Cheesecake"
@@ -40,29 +36,25 @@ function TransformBrand() {
         </div>
       </section>
 
-      <section
-        id="standout-desserts"
-        className="two-column-section container-fluid"
-      >
+      <section id="standout-desserts" className="two-column-section">
         <div className="row align-items-center">
-          <div className="col-md-6" style={{ paddingRight: 0 }}>
+          <div className="col-md-6 col-sm-12">
             <img
-              src={chocolateCake}
+              src={chocolateBrownie}
               alt="Irresistible Chocolate Cake"
               className="img-fluid rounded"
               loading="lazy"
             />
           </div>
-          <div className="col-md-6" style={{ paddingLeft: 0 }}>
+          <div className="col-md-6 col-sm-12 text-content">
             <h2>Stand Out with Every Bite</h2>
-            <p style={{ padding: "0 100px" }}>
+            <p>
               Delight your taste buds with our premium desserts, crafted from
               the finest ingredients. Share the joy with friends and family
               through our beautifully presented, delectable treats.
             </p>
             <button
               className="btn btn-dark"
-              style={{ margin: "0 300px" }}
               onClick={() => navigate("/products")}
             >
               Discover More
